@@ -1,4 +1,3 @@
-TEST?=$$(go list ./...)
 GOOS=linux
 GOARCH=amd64
 VERSION=local
@@ -16,7 +15,7 @@ version: build
 
 
 test: deps
-	go test $(TEST) -v $(TESTARGS) -timeout 2m
+	go test ./... -v $(TESTARGS) -timeout 2m
 
 
 .PHONY: deps build version test
