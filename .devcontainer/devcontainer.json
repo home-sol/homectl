@@ -37,7 +37,8 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"editorconfig.editorconfig",
-		"ms-vscode.makefile-tools"
+		"ms-vscode.makefile-tools",
+		"donjayamanne.githistory"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
